@@ -1,0 +1,37 @@
+# Global ignores
+
+.DS_Store
+node_modules/
+.env
+\*.log
+
+# Frontend (Next.js)
+
+tennis-frontend/.next/
+tennis-frontend/node_modules/
+tennis-frontend/.env.local
+tennis-frontend/.env.development.local
+tennis-frontend/.env.production.local
+tennis-frontend/public/build/
+tennis-frontend/.turbo/
+
+# Backend (Spring Boot / Java)
+
+tennis-backend/target/
+tennis-backend/.idea/
+tennis-backend/.classpath
+tennis-backend/.project
+tennis-backend/.settings/
+tennis-backend/\*.iml
+tennis-backend/.env
+
+# Optional OS/Editor files
+
+_.swp
+_.bak
+_.tmp
+_.log
+_.class
+_.jar
+_.war
+_.ear
