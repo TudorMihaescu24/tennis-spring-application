@@ -1,6 +1,13 @@
 import Nav from "@/components/Nav";
 import { Button } from "@/components/ui/button";
-import { DoorClosed, DoorOpen, NotebookTabs, Table, User } from "lucide-react";
+import {
+  DoorClosed,
+  DoorOpen,
+  NotebookTabs,
+  Table,
+  User,
+  Users,
+} from "lucide-react";
 import Link from "next/link";
 
 export default function PlayerLayout({
@@ -34,6 +41,12 @@ export default function PlayerLayout({
           <Button variant="link">
             <NotebookTabs />
             Score
+          </Button>
+        </Link>
+        <Link href="/referee/players" className="w-max h-max cursor-pointer">
+          <Button variant="link">
+            <Users />
+            Players
           </Button>
         </Link>
       </div>

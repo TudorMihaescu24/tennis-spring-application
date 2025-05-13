@@ -1,6 +1,6 @@
 import Nav from "@/components/Nav";
 import { Button } from "@/components/ui/button";
-import { Award, LogInIcon, Trophy, User } from "lucide-react";
+import { Award, Bell, LogInIcon, Trophy, User } from "lucide-react";
 import Link from "next/link";
 
 export default function AdminLayout({
@@ -28,6 +28,12 @@ export default function AdminLayout({
           <Button variant="link">
             <Award />
             Matches
+          </Button>
+        </Link>{" "}
+        <Link href="/admin/notification" className="w-max h-max cursor-pointer">
+          <Button variant="link">
+            <Bell />
+            Notifications
           </Button>
         </Link>
       </div>
